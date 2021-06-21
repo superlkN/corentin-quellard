@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: -apple-system,BlinkMacSystemFont,sans-serif;
     color: #fff!important;
+    background-color: black!important;
 }
 
 body a {
@@ -12,6 +13,14 @@ body a {
 
 body a:hover {
     color: #f90;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
 }
 
 .content {
@@ -26,27 +35,34 @@ hr {
     opacity: 1!important;
     margin-left: auto!important;
     margin-right: auto!important;
+    margin-top: 100px!important;
+    margin-bottom: 100px!important;
 }
 
 .title {
     font-size: 3rem;
     letter-spacing: .1em;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e;
+    margin-bottom: 100px;
 }
 
 /* Header */
 
 .header {
-        background: url(assets/img/backgroundHeader.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    background: url(assets/img/backgroundHeader.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu {
+    padding-top: 40px!important;
 }
 
 .logo {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 nav ul {
@@ -60,13 +76,12 @@ nav ul li {
 
 nav ul li a {
     padding: 1em;
-    font-size: 1rem!important;
+    font-size: 20px!important;
     scroll-behavior: smooth;
 }
 
 .header h1, .header h2{
     letter-spacing: .1em;
-    text-align: center;
 }
 
 .header h1 {
@@ -77,15 +92,19 @@ nav ul li a {
     font-size: 3rem;
 }
 
-.header a {
+.header-button a {
     font-size: 2rem;
-    display: block;
-    text-align: center;
 }
 
 /* Fin Header */
 
 /* About */
+
+.title-about {
+    font-size: 3rem;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e;
+}
 
 .img-about {
     border: 1px solid rgba(0,0,0,.2);
@@ -110,6 +129,10 @@ nav ul li a {
     max-width: 300px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.bouton-cv:hover {
+    color: black;
 }
 
 /* Fin About */
@@ -160,8 +183,12 @@ nav ul li a {
     color: #516588;
 }
 
-.fa-wordpress:hover {
+.fa-symfony:hover {
     color: #4394ba;
+}
+
+.fa-linkedin:hover {
+    color: #0245aa;
 }
 
 /* Fin Skills */
