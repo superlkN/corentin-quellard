@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,sans-serif;
+    color: #fff!important;
+}
+
+body a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #f90;
+}
+
+.content {
+    background-color: black;
+}
+
+hr {
+    width: 80%;
+    height: 2px!important;
+    background-color: #f90!important;
+    border: none!important;
+    opacity: 1!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+/* Header */
+
+.header {
+    background-image: url(assets/img/backgroundHeader.jpg);
+    height: 100vh; 
+    background-size: cover;
+    background-position: 100%;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    padding: 1em;
+    font-size: 1rem!important;
+    scroll-behavior: smooth;
+}
+
+.header h1, .header h2{
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 6rem;
+}
+
+.header h2 {
+    font-size: 3rem;
+}
+
+.header a {
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+}
+
+/* Fin Header */
+
+/* About */
+
+.img-about {
+    border: 1px solid rgba(0,0,0,.2);
+    background: #fff;
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius: 50em;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bouton-cv {
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+    font-weight: 700;
+    background-color: #fff;
+    border-color: #060606;
+    color: #000;
+    padding: 1.25rem 2.5rem;
+    border-radius: .25rem;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Fin About */
+
+/* Skills */
+
+.skills>.row-skills {
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.skills>.row-skills span {
+    background-color: #fff;
+    display: inline-block;
+    color: #000;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0 solid #000;
+    height: 150px;
+    width: 150px;
+}
+
+.fab {
+    font-size: 100px;
+    margin-top: 25px;
+}
+
+.fa-html5:hover {
+    color: #e56026;
+}
+
+.fa-css3-alt:hover {
+    color: #0d70b6;
+}
+
+.fa-js:hover {
+    color: #f0d91c;
+}
+
+.fa-react:hover {
+    color: #61dafb;
+}
+
+.fa-php:hover {
+    color: #516588;
+}
+
+.fa-wordpress:hover {
+    color: #4394ba;
+}
+
+/* Fin Skills */
