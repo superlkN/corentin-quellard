@@ -151,6 +151,7 @@ nav ul li a {
 .vigicorp {
     width: 320px;
     height: 320px;
+    border-radius: 5px;
 }
 
 .vigi-title {
