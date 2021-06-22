@@ -4,7 +4,6 @@ function sendMail() {
     $expediteur = $_POST['email'];
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
-
     $objet = $_POST['subject'];
         
     $headers  = 'MIME-Version: 1.0' . "\n";
@@ -14,21 +13,14 @@ function sendMail() {
         
     $message = 	'<div style="width: 100%; text-align: center; font-weight: bold"> Bonjour '. $fname . ' ' . $lname .'!<br>
                 '.$_POST['subject'].'</div>';
-        
-    if(mail($destinataire, $objet, $message, $headers))
-    {
-        echo '<script>alert("Votre message a bien été envoyé ");</script>';
-    }
-    else // Non envoyé
-    {
-        echo '<script>alert("Votre message n\'a pas pu être envoyé");</script>';
-        exit;
-    }
+
+    mail($destinataire, $objet, $message, $headers);
 }
 
 if ($_GET['action'] == 'mail')
 {
     sendMail();
+    header('Location: http://corentin-quellard.com/');
 }
     
 ?>
