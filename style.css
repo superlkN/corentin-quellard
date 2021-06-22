@@ -137,6 +137,28 @@ nav ul li a {
 
 /* Fin About */
 
+/* Experiences */
+
+.experiences {
+    color: black;
+}
+
+.row-experiences {
+    display: flex;
+    justify-content: center;
+}
+
+.vigicorp {
+    width: 320px;
+    height: 320px;
+}
+
+.vigi-title {
+    color: #F95353;
+}
+
+/* Fin Experiences */
+
 /* Skills */
 
 .skills>.row-skills {
