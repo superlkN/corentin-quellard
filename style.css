@@ -221,6 +221,14 @@ nav ul li a {
 
 /* Fin Skills */
 
+.img-project {
+    border-radius: 5px;
+}
+
+/* Projects */
+
+/* Fin projects */
+
 .zoom {
     -webkit-transition: -webkit-transform .2s;
     transition: -webkit-transform .2s;
