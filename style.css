@@ -15,6 +15,13 @@ body a:hover {
     color: #f90;
 }
 
+.fleche-home {
+    position: fixed;
+    font-size: 2rem;
+    right: 15px;
+    bottom: 15px;
+}
+
 .zoom {
     transition: transform .2s;
 }
@@ -54,6 +61,8 @@ hr {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: auto;
+    width: auto;
 }
 
 .menu {

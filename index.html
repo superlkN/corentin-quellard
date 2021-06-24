@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="container-fluid header" id="Home">
+        <a href="#Home"><i class="fas fa-arrow-up fleche-home"></i></a>
         <div class="row">
             <nav class="d-flex flex-wrap justify-content-center align-items-start px-5">
                 <img class="logo" src="assets/img/logo/logo_transparent.png">
@@ -176,15 +177,15 @@
                 <div class="contact-form mb-5">
                     <form action="form.php?action=mail" method="POST">
                   
-                      <input type="text" id="fname" name="fname" placeholder="Votre prénom..">
+                      <input type="text" id="fname" name="fname" required placeholder="Votre prénom..">
                   
-                      <input type="text" id="lname" name="lname" placeholder="Votre nom..">
+                      <input type="text" id="lname" name="lname" required placeholder="Votre nom..">
                   
-                      <input type="email" id="email" name="email" placeholder="Votre E-mail..">
+                      <input type="email" id="email" name="email" required placeholder="Votre E-mail..">
 
-                      <input type="text" id="object" name="object" placeholder="Objet de votre mail..">
+                      <input type="text" id="object" name="object" required placeholder="Objet de votre mail..">
                   
-                      <textarea id="subject" name="subject" placeholder="Ecrivez quelque chose.." style="height:200px"></textarea>
+                      <textarea id="subject" name="subject" required placeholder="Ecrivez quelque chose.." style="height:200px"></textarea>
                   
                       <input class="mt-3" type="submit" value="Envoyer">
                   
