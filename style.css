@@ -162,7 +162,7 @@ nav ul li a {
     justify-content: center;
 }
 
-.vigicorp {
+.experienceImg {
     width: 320px;
     height: 320px;
     border-radius: 5px;
@@ -226,6 +226,10 @@ nav ul li a {
 
 .fa-linkedin:hover {
     color: #0245aa;
+}
+
+.fa-laravel:hover {
+    color: #EB4D43;
 }
 
 /* Fin Skills */
